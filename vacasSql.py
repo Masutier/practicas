@@ -55,7 +55,7 @@ def readOrdered(field):
 
 # CREATE REGISTER
 """
-day = input("Day to Update (0 ~ n): ")
+day = input("Production Day (0 ~ n): ")
 vaca = input("Cow: ")
 liters = input("Cow Production: ")
 
@@ -64,6 +64,6 @@ insertRowData(day, vaca, liters)
 
 # GET DATA ORDER BY FIELD
 
-field = input("Enter field to order: ")
+field = input("Enter field to order (day, vaca or liters): ")
 readOrdered(field)
 
